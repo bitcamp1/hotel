@@ -1,0 +1,228 @@
+@CHARSET "UTF-8";
+
+/* @IMPORT url("index.css");
+ */
+	table {border-collapse: collapse;border:3px solid red;}
+	#layout {border:2px solid black;width:95%;margin:0 auto;} 
+	#layout tr td{border: 2px solid red; text-align: center;}
+	
+	
+	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, 
+kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, 
+audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff0000;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* body */
+    html{padding:0px; overflow-y:scroll; height: 100%;}
+    *{margin:0; padding:0;}
+    body{font-family:Arial, Helvetica, sans-serif;
+         margin: 0 auto;
+         background-color:#242c41;
+	     background-position: center;
+	     height: 100%;
+    }
+    li{list-style:none;}
+    a{
+    	text-decoration:none;
+    	color:#FFF;
+    }
+    img{dorder:0;}
+    a:hover{color:#CCC;}
+    form{
+	display: inline;
+	}
+    
+/* main css */
+
+/* top */
+    #logo {
+	/* 	background:#121620; */
+		/* position:fixed; */
+		padding-top:5px;
+		top:0; left:0; right:0;
+		z-index:10;	
+		height:80px;
+    }
+    /*960px �߰����� ������*/
+    .center {
+		width:960px;
+		margin:0 auto;
+    } 
+    .center2 {
+		width:960px;
+		margin:0 auto;
+		padding-top: 10px;
+		border-top:1px solid #FFF;
+    } 
+    .center2>ul>li {
+		float: left;
+    }
+    .center2F {
+    	padding-bottom: 50px;
+		margin: 10px;
+    }    
+    .logo_title {
+        width:300px;
+        margin-top:10px;
+        float:left;
+        line-height:50px;
+        font-weight:bold;
+        color:#FFF;
+        font-size:3.5em;
+        font-family:Times New Roman;
+    }
+    .logo_content {
+        width:300px;
+        margin-top:15px;
+        margin-left:10px;
+        float:left;
+        color:#FFF;
+    }
+    .logo_content_1 {
+    	padding-top:3px;
+        color:#808080;
+        font-size:0.7em;
+    }
+    .loginform{
+    	margin-top:15px;
+    	margin-left:10px;
+    	float:right;
+    }
+    .logintext{
+    	color:#FFF;
+    	font-size:0.8em;
+    }
+    
+/* mainmenu */
+	
+    
+/* bottom */    
+	#bottom {
+        /*��� ����*/
+        height: 35px;
+        background:#121620;
+        /*�ڼ���ġ ����*/
+       /* position:fixed; */
+        bottom:0; left:0; right:0;
+		border-top:1px solid #FFF;
+		z-index:10;
+        color:#808080;
+        font-size:0.8em;
+        letter-spacing:2px;
+    }
+ 	#adress>ul>li {
+        float:left;
+        padding-right:20px;
+        line-height:35px;
+    }
+    #link>ul>li {
+        float:right;
+        padding-right:10px;
+        margin-top:5px;
+    }
+    
+/*tap*/
+	.maintap{
+		width: 400px;
+	}
+	.tabtable{
+		font-size: 0.9em;
+		padding: 10px;
+	}
+	.tabttd1{
+		padding:5px;
+		width: 100px;
+		text-align: left;
+		float: left;	
+	}
+	.tabttd2{
+		padding:5px;
+		width: 260px;
+		text-align: left;
+		text-overflow:ellipsis; overflow:hidden; white-space:nowrap;
+	}
+	
+	
+	
